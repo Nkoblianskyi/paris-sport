@@ -66,9 +66,6 @@ export function Footer() {
             <Link href="/politique-cookies" className="hover:text-green-600">
               Politique des Cookies
             </Link>
-            <Link href="/mentions-legales" className="hover:text-green-600">
-              Mentions Légales
-            </Link>
           </div>
 
           {/* 18+ Badge Desktop */}
