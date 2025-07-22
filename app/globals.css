@@ -49,7 +49,7 @@ body {
     "Droid Sans", "Helvetica Neue", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url("/placeholder.svg?height=1080&width=1920&text=French+Sports+Background");
+  background-image: url("/bg.jpg");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

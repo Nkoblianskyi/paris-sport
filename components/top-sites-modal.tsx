@@ -77,7 +77,7 @@ export function TopSitesModal() {
                   </div>
                 </div>
 
-                <div className="mb-4">
+                <div className="mb-4 bg-black">
                   <img
                     src={site.logo || "/placeholder.svg"}
                     alt={site.name}

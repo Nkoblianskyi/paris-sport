@@ -8,7 +8,7 @@ export function OurChoiceSection() {
 
   return (
     <section className="py-4 px-4 w-full">
-      <div className="container mx-auto max-w-[1220px] bg-white/95 backdrop-blur-sm rounded-lg shadow-sm border border-green-200">
+      <div className="container mx-auto max-w-[1220px] bg-white/60 backdrop-blur-sm rounded-lg shadow-sm border border-green-200">
         <div className="p-8">
           <div className="text-center mb-8">
             <h2 className="text-3xl font-bold text-slate-800 mb-4">Sur Quoi Faut-il Se Concentrer</h2>

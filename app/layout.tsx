@@ -1,11 +1,11 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { Inter } from "next/font/google"
+import { Poppins } from "next/font/google"
 import "./globals.css"
 import { Footer } from "@/components/footer"
 import { CookieBanner } from "@/components/cookie-banner"
 
-const inter = Inter({ subsets: ["latin"] })
+const inter = Poppins({ subsets: ["latin"], weight: ["400", "500", "600", "700"] })
 
 export const metadata: Metadata = {
   title: "ParisSportifsFrance - Meilleurs Sites de Paris Sportifs France 2025",
@@ -58,7 +58,6 @@ export const metadata: Metadata = {
     "content-type": "Comparaison éducative sites paris sportifs licenciés",
     "risk-awareness": "Sensibilisation aux risques du jeu problématique",
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({

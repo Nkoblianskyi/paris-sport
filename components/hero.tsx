@@ -18,7 +18,7 @@ export function Hero() {
   return (
     <>
       <section className="w-full">
-        <div className="container mx-auto max-w-[1220px] max-h-[300px] flex items-center relative bg-white/95 backdrop-blur-sm rounded-lg shadow-sm border border-green-200">
+        <div className="container mx-auto max-w-[1220px] max-h-[300px] flex items-center relative bg-white/60 backdrop-blur-sm rounded-lg shadow-sm border border-green-200">
           <div className="text-center relative z-10 w-full py-8">
             <h1 className="text-2xl md:text-4xl font-bold mb-4">
               <span className="text-blue-600">TOP</span> <span className="text-slate-800">CLASSEMENT</span>{" "}
