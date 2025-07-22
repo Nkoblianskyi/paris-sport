@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
+    --primary: 29 78 216;
+    --primary-foreground: 248 250 252;
+    --secondary: 34 197 94;
+    --secondary-foreground: 248 250 252;
+    --muted: 241 245 249;
+    --muted-foreground: 100 116 139;
+    --accent: 34 197 94;
+    --accent-foreground: 248 250 252;
+    --destructive: 239 68 68;
+    --destructive-foreground: 248 250 252;
+    --border: 226 232 240;
+    --input: 226 232 240;
+    --ring: 29 78 216;
+    --chart-1: 29 78 216;
+    --chart-2: 239 68 68;
+    --chart-3: 34 197 94;
+    --chart-4: 220 38 127;
+    --chart-5: 16 185 129;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-slate-50 text-foreground;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+    "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url("/placeholder.svg?height=1080&width=1920&text=French+Sports+Background");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
