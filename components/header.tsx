@@ -10,8 +10,8 @@ export function Header() {
           <Link href="/" className="flex items-center space-x-3">
             <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
             <h1 className="text-xl md:text-2xl font-bold">
-              <span className="text-blue-600">Paris</span>
-              <span className="text-red-600">Sportifs</span>
+              <span className="text-blue-600">Les10</span>
+              <span className="text-red-600">Meilleurs</span>
               <span className="text-green-600">France</span>
             </h1>
           </Link>

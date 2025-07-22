@@ -5,7 +5,7 @@ export default function AProposPage() {
     <>
       <Header />
       <div className="container mx-auto px-4 py-16">
-        <h1 className="text-4xl font-bold mb-8 text-center text-white">À Propos de ParisSportifsFrance</h1>
+        <h1 className="text-4xl font-bold mb-8 text-center text-white">À Propos de Les10MeilleursFrance</h1>
 
         <div className="max-w-4xl mx-auto space-y-8 bg-slate-900/90 backdrop-blur-sm rounded-lg p-8">
           <div className="text-center mb-8">
@@ -16,9 +16,9 @@ export default function AProposPage() {
             <h2 className="text-2xl font-bold mb-4 text-yellow-400">Notre Mission</h2>
             <div className="text-slate-300 leading-relaxed space-y-3">
               <p>
-                ParisSportifsFrance est un comparateur indépendant spécialisé dans l'évaluation des sites de paris
-                sportifs licenciés en France. Notre mission est de fournir aux parieurs français des informations
-                objectives, transparentes et actualisées pour les aider à faire des choix éclairés.
+                Les10MeilleursFrance est un comparateur indépendant spécialisé dans l'évaluation des 10 meilleurs sites
+                de paris sportifs licenciés en France. Notre mission est de fournir aux parieurs français des
+                informations objectives, transparentes et actualisées pour les aider à faire des choix éclairés.
               </p>
               <p>
                 Nous ne sommes pas un opérateur de jeux d'argent et ne proposons aucun service de paris. Notre rôle se
@@ -34,7 +34,7 @@ export default function AProposPage() {
               <div className="bg-red-900/20 border border-red-700/50 rounded-lg p-4">
                 <h4 className="text-red-300 font-bold mb-3">Critère Obligatoire N°1 : Licence ANJ</h4>
                 <p className="text-sm">
-                  <strong>Aucun site ne peut figurer dans notre classement sans une licence valide de l'ANJ</strong>
+                  <strong>Aucun site ne peut figurer dans notre TOP 10 sans une licence valide de l'ANJ</strong>
                   (Autorité Nationale des Jeux). Nous vérifions systématiquement le statut de chaque licence et excluons
                   immédiatement tout opérateur non autorisé en France.
                 </p>
@@ -100,7 +100,8 @@ export default function AProposPage() {
             <h2 className="text-2xl font-bold mb-4 text-yellow-400">Notre Système de Notation</h2>
             <div className="text-slate-300 leading-relaxed space-y-4">
               <p>
-                Chaque site de paris reçoit une note globale de 1 à 5 étoiles, calculée selon une pondération précise :
+                Chaque site de paris reçoit une note globale de 1 à 10, calculée selon une pondération précise pour
+                établir notre TOP 10 :
               </p>
 
               <div className="grid md:grid-cols-2 gap-4">
@@ -172,7 +173,7 @@ export default function AProposPage() {
                     • <strong>Hebdomadaire :</strong> Contrôle des cotes sur événements majeurs
                   </li>
                   <li>
-                    • <strong>Mensuel :</strong> Révision complète des classements
+                    • <strong>Mensuel :</strong> Révision complète du TOP 10
                   </li>
                   <li>
                     • <strong>Trimestriel :</strong> Audit complet de sécurité et conformité
@@ -183,7 +184,7 @@ export default function AProposPage() {
               <p>
                 Notre équipe surveille en permanence l'évolution du marché français des paris sportifs. Tout changement
                 significatif (nouveau bonus, modification des conditions, problème de sécurité) est immédiatement pris
-                en compte dans nos évaluations.
+                en compte dans nos évaluations et peut modifier notre classement TOP 10.
               </p>
             </div>
           </section>
@@ -196,7 +197,7 @@ export default function AProposPage() {
                 <ul className="text-sm space-y-2">
                   <li>• Nos évaluations ne sont influencées par aucun partenariat commercial</li>
                   <li>• Nous testons tous les sites selon les mêmes critères objectifs</li>
-                  <li>• Aucun opérateur ne peut acheter une meilleure position dans notre classement</li>
+                  <li>• Aucun opérateur ne peut acheter une meilleure position dans notre TOP 10</li>
                   <li>• Nous publions aussi bien les points forts que les faiblesses de chaque site</li>
                 </ul>
               </div>
@@ -217,7 +218,7 @@ export default function AProposPage() {
                 <p className="text-sm">
                   En tant que comparateur de sites de paris, nous avons la responsabilité de promouvoir le jeu
                   responsable. Nous évaluons systématiquement les outils de protection proposés par chaque opérateur et
-                  privilégions ceux qui offrent les meilleures mesures de prévention.
+                  privilégions ceux qui offrent les meilleures mesures de prévention dans notre TOP 10.
                 </p>
               </div>
 
@@ -242,7 +243,7 @@ export default function AProposPage() {
           </section>
 
           <section>
-            <h2 className="text-2xl font-bold mb-4 text-yellow-400">Exclusions de Notre Classement</h2>
+            <h2 className="text-2xl font-bold mb-4 text-yellow-400">Exclusions de Notre TOP 10</h2>
             <div className="text-slate-300 leading-relaxed">
               <div className="bg-red-900/30 border border-red-700 rounded-lg p-4">
                 <h4 className="text-red-300 font-bold mb-3">Sites Automatiquement Exclus</h4>
@@ -260,7 +261,7 @@ export default function AProposPage() {
 
           <div className="text-center mt-8 p-4 bg-blue-900/20 border border-blue-700/50 rounded-lg">
             <p className="text-blue-300 text-sm">
-              ParisSportifsFrance s'engage à maintenir les plus hauts standards d'évaluation pour garantir la sécurité
+              Les10MeilleursFrance s'engage à maintenir les plus hauts standards d'évaluation pour garantir la sécurité
               et la satisfaction des parieurs français. Notre travail contribue à un environnement de jeu plus sûr et
               plus transparent.
             </p>

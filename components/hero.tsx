@@ -17,11 +17,11 @@ export function Hero() {
 
   return (
     <>
-      <section className="w-full">
+      <section className="py-2 px-2 w-full">
         <div className="container mx-auto max-w-[1220px] max-h-[300px] flex items-center relative bg-white/60 backdrop-blur-sm rounded-lg shadow-sm border border-green-200">
           <div className="text-center relative z-10 w-full py-8">
             <h1 className="text-2xl md:text-4xl font-bold mb-4">
-              <span className="text-blue-600">TOP</span> <span className="text-slate-800">CLASSEMENT</span>{" "}
+              <span className="text-blue-600">TOP 10</span> <span className="text-slate-800">MEILLEURS</span>{" "}
               <span className="text-red-600">PARIS</span> <span className="text-green-600">SPORTIFS</span>{" "}
               <span className="text-slate-800">FRANCE</span>
             </h1>
@@ -29,7 +29,7 @@ export function Hero() {
             <div className="text-slate-600 mb-4 text-xs md:text-sm">Dernière mise à jour : {formattedDate}</div>
 
             <p className="text-sm md:text-base text-slate-700 max-w-4xl mx-auto leading-relaxed mb-6">
-              Notre classement expert des meilleurs sites de paris sportifs en France. Nous analysons les bonus, les
+              Notre classement expert des 10 meilleurs sites de paris sportifs en France. Nous analysons les bonus, les
               cotes, la sécurité et la qualité du service pour vous aider à choisir la meilleure plateforme de paris.
             </p>
 

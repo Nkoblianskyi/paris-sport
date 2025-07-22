@@ -31,8 +31,8 @@ export function CookieBanner() {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex-1">
           <p className="text-slate-700 text-sm">
-            Ce site utilise des cookies pour améliorer votre expérience de navigation et fournir des fonctionnalités
-            personnalisées. En continuant à utiliser notre site, vous acceptez notre{" "}
+            Les10MeilleursFrance utilise des cookies pour améliorer votre expérience de navigation et fournir des
+            fonctionnalités personnalisées. En continuant à utiliser notre site, vous acceptez notre{" "}
             <Link href="/politique-confidentialite" className="text-green-600 hover:underline">
               Politique de Confidentialité
             </Link>{" "}

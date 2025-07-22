@@ -11,7 +11,7 @@ export function Footer() {
           <div className="text-center">
             <div className="flex items-center justify-center space-x-3 mb-4">
               <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
-              <h2 className="text-slate-800 font-bold text-xl">ParisSportifsFrance</h2>
+              <h2 className="text-slate-800 font-bold text-xl">Les10MeilleursFrance</h2>
             </div>
           </div>
 
@@ -51,7 +51,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-3 mb-4">
               <Image src="/favicon.ico" alt="Logo" width={40} height={40} />
-              <h2 className="text-slate-800 font-bold text-xl">ParisSportifsFrance</h2>
+              <h2 className="text-slate-800 font-bold text-xl">Les10MeilleursFrance</h2>
             </div>
           </div>
 
@@ -206,8 +206,8 @@ export function Footer() {
         </div>
 
         <div className="border-t border-green-200 mt-8 pt-6 text-center text-slate-500 text-xs md:text-sm">
-          <p>&copy; 2025 ParisSportifsFrance.com - Tous droits réservés</p>
-          <p className="mt-2">Comparateur indépendant de sites de paris sportifs en France</p>
+          <p>&copy; 2025 Les10MeilleursFrance.com - Tous droits réservés</p>
+          <p className="mt-2">Comparateur indépendant des 10 meilleurs sites de paris sportifs en France</p>
         </div>
       </div>
     </footer>
